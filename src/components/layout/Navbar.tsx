@@ -22,10 +22,10 @@ export function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">N</span>
+              <span className="text-primary-foreground font-bold text-lg">DD</span>
             </div>
             <span className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
-              NexusWeb
+              DD Development
             </span>
           </Link>
 
