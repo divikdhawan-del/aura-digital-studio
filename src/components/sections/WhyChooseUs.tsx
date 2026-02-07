@@ -44,7 +44,7 @@ export function WhyChooseUs() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-primary text-sm font-medium uppercase tracking-wider">Why Choose Us</span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4 mb-6">
-            The <span className="text-gradient">NexusWeb</span> Advantage
+            The <span className="text-gradient">DD Development</span> Advantage
           </h2>
           <p className="text-muted-foreground text-lg">
             We're not just another web agency. Here's what sets us apart from the competition.
