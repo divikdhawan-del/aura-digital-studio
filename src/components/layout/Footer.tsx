@@ -90,15 +90,15 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Mail size={16} className="text-primary" />
-                hello@nexusweb.agency
+                divikdhawan@gmail.com
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone size={16} className="text-primary" />
-                +1 (555) 123-4567
+                +91 7297889356
               </li>
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin size={16} className="text-primary mt-0.5" />
-                San Francisco, CA
+                Jaipur, Rajasthan, India
               </li>
             </ul>
           </div>

@@ -126,7 +126,7 @@ const ContactPage = () => {
                     id="phone"
                     name="phone"
                     type="tel"
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="+91 98765 43210"
                     value={formData.phone}
                     onChange={handleChange}
                     className="h-12 bg-card border-border focus:border-primary"
@@ -200,21 +200,21 @@ const ContactPage = () => {
                     <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
                       <Mail size={18} className="text-primary" />
                     </div>
-                    <span>hello@nexusweb.agency</span>
+                    <span>divikdhawan@gmail.com</span>
                   </div>
                   
                   <div className="flex items-center gap-4 text-muted-foreground">
                     <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
                       <Phone size={18} className="text-primary" />
                     </div>
-                    <span>+1 (555) 123-4567</span>
+                    <span>+91 7297889356</span>
                   </div>
                   
                   <div className="flex items-center gap-4 text-muted-foreground">
                     <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
                       <MapPin size={18} className="text-primary" />
                     </div>
-                    <span>San Francisco, California</span>
+                    <span>Jaipur, Rajasthan, India</span>
                   </div>
                 </div>
               </div>
