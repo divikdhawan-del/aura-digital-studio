@@ -25,16 +25,46 @@ const ContactPage = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      const response = await fetch(
+        "https://api.steinhq.com/v1/storages/69886853affba40a6249d032/Sheet1",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify([
+            {
+              Name: formData.name,
+              Email: formData.email,
+              Phone: formData.phone,
+              Description: formData.description,
+              SubmittedAt: new Date().toISOString(),
+            },
+          ]),
+        }
+      );
 
-    toast({
-      title: "Message Sent Successfully!",
-      description: "We'll get back to you within 24 hours.",
-    });
+      if (!response.ok) {
+        throw new Error("Failed to submit");
+      }
 
-    setFormData({ name: "", email: "", phone: "", description: "" });
-    setIsSubmitting(false);
+      toast({
+        title: "Message Sent Successfully!",
+        description: "We'll get back to you within 24 hours.",
+      });
+
+      setFormData({ name: "", email: "", phone: "", description: "" });
+    } catch (error) {
+      console.error("Submission error:", error);
+      toast({
+        title: "Submission Failed",
+        description: "Please try again or contact us directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
