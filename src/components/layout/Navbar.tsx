@@ -25,7 +25,7 @@ export function Navbar() {
               <span className="text-primary-foreground font-bold text-lg">DD</span>
             </div>
             <span className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
-              DD Development
+              nexusweb
             </span>
           </Link>
 

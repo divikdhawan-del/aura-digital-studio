@@ -29,9 +29,9 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">DD</span>
+                <span className="text-primary-foreground font-bold text-sm">NW</span>
               </div>
-              <span className="text-xl font-bold text-foreground">DD Development</span>
+              <span className="text-xl font-bold text-foreground">nexusweb</span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               We build high-converting websites for modern brands that drive growth and deliver results.
@@ -107,7 +107,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="border-t border-border mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} DD Development. All rights reserved.
+            © {new Date().getFullYear()} nexusweb. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
