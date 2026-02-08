@@ -62,9 +62,9 @@ const AboutPage = () => {
               <h2 className="text-3xl sm:text-4xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground text-lg">
                 <p>
-                  DD Development was founded with a simple mission: to bridge the gap between 
+                  nexusweb was founded with a simple mission: to bridge the gap between 
                   beautiful design and high-performance web development. We noticed that 
-                  many businesses struggled to find agencies that could deliver both 
+                  many businesses struggled to find agencies that could deliver both
                   aesthetics and results.
                 </p>
                 <p>
@@ -85,9 +85,9 @@ const AboutPage = () => {
               <div className="aspect-square rounded-3xl border-gradient bg-card/50 p-8 flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-24 h-24 rounded-2xl bg-gradient-primary flex items-center justify-center mx-auto mb-6">
-                    <span className="text-3xl font-bold text-primary-foreground">DD</span>
+                    <span className="text-3xl font-bold text-primary-foreground">NW</span>
                   </div>
-                  <p className="text-xl font-semibold">DD Development</p>
+                  <p className="text-xl font-semibold">nexusweb</p>
                   <p className="text-muted-foreground">Est. 2019</p>
                 </div>
               </div>
