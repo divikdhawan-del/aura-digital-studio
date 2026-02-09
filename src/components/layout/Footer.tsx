@@ -88,13 +88,23 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Contact</h4>
             <ul className="space-y-3">
-              <li className="flex items-center gap-3 text-sm text-muted-foreground">
-                <Mail size={16} className="text-primary" />
-                divikdhawan@gmail.com
+              <li>
+                <a 
+                  href="mailto:divikdhawan@gmail.com" 
+                  className="flex items-center gap-3 text-sm text-muted-foreground transition-colors duration-200 hover:text-primary"
+                >
+                  <Mail size={16} className="text-primary" />
+                  divikdhawan@gmail.com
+                </a>
               </li>
-              <li className="flex items-center gap-3 text-sm text-muted-foreground">
-                <Phone size={16} className="text-primary" />
-                +91 7297889356
+              <li>
+                <a 
+                  href="tel:+917297889356" 
+                  className="flex items-center gap-3 text-sm text-muted-foreground transition-colors duration-200 hover:text-primary"
+                >
+                  <Phone size={16} className="text-primary" />
+                  +91 7297889356
+                </a>
               </li>
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin size={16} className="text-primary mt-0.5" />
