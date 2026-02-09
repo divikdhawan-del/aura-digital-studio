@@ -170,12 +170,15 @@ const ServicesPage = () => {
               Let's discuss your project and find the perfect solution together. 
               Our team is ready to help you achieve your goals.
             </p>
-            <Button asChild variant="glow" size="xl">
-              <Link to="/contact">
+            <div className="flex justify-center">
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 px-8 py-4 text-base font-medium text-foreground border border-primary/40 rounded-lg bg-card/30 backdrop-blur-sm transition-all duration-300 ease-out hover:border-primary hover:text-primary hover:shadow-[0_0_20px_-5px_hsl(var(--primary)/0.5)] hover:translate-y-[-2px] active:translate-y-0"
+              >
                 Schedule a Free Consultation
-                <ArrowRight size={20} />
+                <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
-            </Button>
+            </div>
           </div>
         </div>
       </section>
