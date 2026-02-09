@@ -196,19 +196,25 @@ const ContactPage = () => {
                 <div className="border-t border-border pt-8 space-y-4">
                   <h3 className="font-semibold mb-4">Contact Information</h3>
                   
-                  <div className="flex items-center gap-4 text-muted-foreground">
-                    <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
+                  <a 
+                    href="mailto:divikdhawan@gmail.com" 
+                    className="flex items-center gap-4 text-muted-foreground transition-colors duration-200 hover:text-primary group"
+                  >
+                    <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center transition-all duration-200 group-hover:bg-primary/20 group-hover:scale-105">
                       <Mail size={18} className="text-primary" />
                     </div>
                     <span>divikdhawan@gmail.com</span>
-                  </div>
+                  </a>
                   
-                  <div className="flex items-center gap-4 text-muted-foreground">
-                    <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
+                  <a 
+                    href="tel:+917297889356" 
+                    className="flex items-center gap-4 text-muted-foreground transition-colors duration-200 hover:text-primary group"
+                  >
+                    <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center transition-all duration-200 group-hover:bg-primary/20 group-hover:scale-105">
                       <Phone size={18} className="text-primary" />
                     </div>
                     <span>+91 7297889356</span>
-                  </div>
+                  </a>
                   
                   <div className="flex items-center gap-4 text-muted-foreground">
                     <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
