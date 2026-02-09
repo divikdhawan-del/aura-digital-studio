@@ -48,7 +48,7 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <button
               onClick={scrollToContact}
-              className="group px-8 py-4 text-base font-medium text-foreground border border-border rounded-lg bg-transparent transition-all duration-300 ease-out hover:border-primary hover:text-primary hover:shadow-[0_0_20px_-5px_hsl(var(--primary)/0.5)] hover:translate-y-[-2px] active:translate-y-0"
+              className="group px-8 py-4 text-base font-medium text-foreground border border-primary/40 rounded-lg bg-card/30 backdrop-blur-sm transition-all duration-300 ease-out hover:border-primary hover:text-primary hover:shadow-[0_0_20px_-5px_hsl(var(--primary)/0.5)] hover:translate-y-[-2px] active:translate-y-0"
             >
               Schedule a Free Consultation
               <ArrowRight size={18} className="inline-block ml-2 transition-transform duration-300 group-hover:translate-x-1" />
